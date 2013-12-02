@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #000;
+	line-height: 20px;
+	height: 100%;
+}
+
+#container {
+	width: 1100px;
+	min-height: 100%; 
+	position: relative;
+	margin: 0px auto;
+	background: url(../images/bg.jpg) repeat-y;  
+}
+
+img {
+	border: none;
+}
+
+#top {
+	background: url(../images/top.jpg) repeat-x;  
+	height: 9px;
+}
+
+* html #container { /***** Hier heb ik ervoor gezorgd dat in Internet Explorer 6 ook de hoogte bepaald wordt door de inhoud. Internet Explorer kent geen min-height *****/
+height:100%; /* IE6 treats height as min-height */
+}
+
+/***** Header *****/
+
+#header_wrapper {
+	width: 950px;
+	height: 145px;
+	margin: 0px auto;
+}
+
+#logo {
+	background: url("../images/logo_kleuskens.png") no-repeat scroll 0 0 transparent;
+    height: 104px;
+    margin: 30px 10px 10px;
+    position: absolute;
+    width: 300px;
+}
+
+/***** Menu *****/
+
+#menu_div {
+	font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    width: 900px;
+	float: right;
+}
+
+ul#menu {
+	height: 22px;
+    list-style: none outside none;
+    padding: 8px 0 0;
+    text-align: right;
+    width: 900px;
+}
+
+ul#menu li.border {
+	margin-top: none;
+	display: inline;
+	border-left: none;
+}
+
+ul#menu li.first {
+	margin-top: none;
+	display: inline;
+	border-left: none;
+}
+
+ul#menu li a {
+	border: 2px solid #FFFFFF;
+    color: #3D61AD;
+    height: 20px;
+    padding: 2px 8px;
+    text-decoration: none;
+}
+
+ul#menu li a.current, ul#menu li a:hover {
+	color: #fff;
+	background: #b1b0b0;
+	border: solid 2px #3d61ad;
+}
+
+/***** dynamic_header *****/
+		
+#slideshow {
+	width: 874px;
+	height: 240px;
+	border: solid 1px #3e62ad;
+	margin: 0px auto;
+}
+
+/***** Main content *****/
+
+#content {
+    margin: 0 auto;
+    min-height: 270px;
+    width: 950px;
+	overflow: auto;
+}
+
+/***** Menu2 *****/
+
+#menu2_div {
+    float: left;
+    margin: 20px 20px 0 0;
+    min-height: 250px;
+    width: 220px;
+}
+
+ul#menu2 {
+	width: 220px;
+	height: 250px;
+	list-style: none;
+	font-size: 14px;
+}
+
+ul#menu2 li a {
+	font-weight:normal;
+	height:22px;
+	text-decoration:none;
+	color:#7e7e7e;
+	display:block;
+	padding:6px 0 0 40px;
+	background:url(../images/menu_logo_zw.jpg) center left no-repeat;
+	}
+
+ul#menu2 li a:hover, #menu li a.current {
+	font-weight:normal;
+	background:url(../images/menu_logo.jpg) center left no-repeat;
+	color:#3e62ad;
+}
+
+#text {
+	float: left;
+    left: 270px;
+    margin: 25px 1000px;
+    min-height: 200px;
+    width: 30px;
+}
+
+#text h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3e62ad;
+}
+
+#text h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3e62ad;
+}
+
+.adresspan {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight: normal;
+}
+
+#text a {
+	text-decoration: none;
+	color: #000;
+}
+
+#text a:hover {
+	text-decoration: none;
+	color: #3e62ad;
+}
+
+/***** Balk *****/
+
+#tekstbalk {
+	background: #3e62ad;
+	height: 50px;
+	width: 950px;
+}
+
+#tekstbalk h2{
+	color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 29px;
+}
+
+/***** Footer *****/
+
+#footer {
+	background: #3e62ad;
+	min-width: 100%;
+	height: 50px;
+	clear: left;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 0;
+}
+
+#footer p a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: normal;
+}
+
+#footer p a:hover {
+	text-decoration: none;
+	color: #7e7e7e;
+	font-weight: normal;
+}

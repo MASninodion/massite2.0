@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<Slides>
+<slideNode jpegURL="189fbb672aa6.jpg" thumbURL="189fbb672aa6t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="e358797a022.jpg" thumbURL="e358797a022t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="dff9fe4d50e1.jpg" thumbURL="dff9fe4d50e1t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="b68a9b4a386d.jpg" thumbURL="b68a9b4a386dt.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="c0416d647349.jpg" thumbURL="c0416d647349t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="995d4373d0c5.jpg" thumbURL="995d4373d0c5t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="9dbb96de2c12.jpg" thumbURL="9dbb96de2c12t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+<slideNode jpegURL="ba7e47d3355.jpg" thumbURL="ba7e47d3355t.jpg" jpegWidth="720" jpegHeight="540"></slideNode>
+</Slides>
+<setup>
+	<infoNode 
+		zoomatstart="false"
+		zoomx="400"
+		zoomy="270"
+		sliderposxshift="false"
+		of=" of "
+		sec="sec"
+		PhotoWMax= "270"  
+		carddepthfar="30" 
+		carddepthnear="70" 
+		PhotoHMax= "200" 
+		gridx="222"  
+		gridy="150" 
+		gridcol = "2" 
+		gridrow = "2" 
+		captionx="400" 
+		captiony="505" 
+		mymusictrack = ""  
+		fontcolor="0x000000"  
+		sliderposx = "375"
+		sliderposy = "550"
+		verticalthumbs ="false" 
+		slideimagein="true" 
+		slideinimagenudge="true" 
+		thumbxLoc= "0"  
+		photoYLoc="350" 
+		photoXLoc="0" 
+		thumbyLoc= "70" 
+		popslide="true"  
+		thumbsize= "50" 
+		thumbgapx="345"
+		thumbgapy="260"  
+		thumbblocklength="10" 
+		blur="20" 
+		reflection="true" 
+		sliderdoc = "false"
+		AutoHideControls = "true"
+		Autoplay="true"
+		Sliderdefault="5"
+		>
+	</infoNode>
+</setup>
